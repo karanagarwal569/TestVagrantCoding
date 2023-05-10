@@ -1,5 +1,7 @@
 package SongTest;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -130,7 +132,7 @@ public class TestSongs {
 		System.out.println(expected.toString());
 		System.out.println(actuallist.toString());
 
-		Assert.assertTrue(actuallist.equals(expected));
+		AssertJUnit.assertTrue(actuallist.equals(expected));
 
 	}
 
